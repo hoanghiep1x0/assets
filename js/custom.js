@@ -223,14 +223,14 @@ var THEMEMASCOT = {};
         /* ------------------------ Bootstrap Parent Modal  --------------------- */
         /* ---------------------------------------------------------------------- */
         TM_loadBSParentModal: function() {
-            var ajaxLoadContent = true;
-            if( ajaxLoadContent ) {
-                $.ajax({
-                    url: "ajax-load/bootstrap-parent-modal.html",
-                    success: function (data) { $body.append(data); },
-                    dataType: 'html'
-                });
-            }
+//             var ajaxLoadContent = true;
+//             if( ajaxLoadContent ) {
+//                 $.ajax({
+//                     url: "ajax-load/bootstrap-parent-modal.html",
+//                     success: function (data) { $body.append(data); },
+//                     dataType: 'html'
+//                 });
+//             }
         },
         /* ---------------------------------------------------------------------- */
         /* ------------------------------ Demo Switcher  ------------------------ */
